@@ -1,0 +1,3 @@
+# Isolate one cause at a time
+
+Missing script: extract the entireZIP and openPowerShell in that folder. MissingDLL: keep the complete official archive together. MissingGPU: inspect --list-devices, graphics driver and Vulkan-x64 package. Unknown model: verify model architecture/build compatibility. Memory failure: check idle resources and reduce context or model size, one change at a time. Occupied port: choose your own unused port; never terminate someone else's service. Browser failure: read the server terminal and check /health at the correct port. Healthy server without an answer: run TEST-API and record the first concrete error. Wrong answer: check the content against your source; a running server does not guarantee correctness.

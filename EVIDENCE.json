@@ -1,0 +1,34 @@
+{
+  "prepared_utc": "2026-10-06T20:38:22.442167+00:00",
+  "runtime_archive": "llama-b11078-bin-win-vulkan-x64.zip",
+  "runtime_sha256": "0649f258e140a8b3b1a4c58d863c317b0fd3427eed2e72132399dbde363df861",
+  "model": {
+    "repo": "bartowski/Qwen_Qwen3-4B-Instruct-2507-GGUF",
+    "revision": "ae44f08e1392f39c0e474af10c3ff8355c8b6688",
+    "quantizer_license": null,
+    "base_model": "Qwen/Qwen3-4B-Instruct-2507",
+    "base_model_license": "apache-2.0",
+    "file": {
+      "rfilename": "Qwen_Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+      "blobId": "c43ec5b3faaeeb228378138eec21033cbc81a29a",
+      "size": 2497280736,
+      "lfs": {
+        "sha256": "2fde00ce69dd4899c70d020845e2638353015bba0fdf161b3eb965f2bca4464e",
+        "size": 2497280736,
+        "pointerSize": 135
+      }
+    },
+    "metadata_url": "https://huggingface.co/api/models/bartowski/Qwen_Qwen3-4B-Instruct-2507-GGUF?blobs=true",
+    "weights_downloaded": false
+  },
+  "historical_gpu_recognition": {
+    "hardware": "GMKtec EVO-X2 / Strix Halo",
+    "build": "10621 (c1d0e7a00)",
+    "date": "2026-09-22"
+  },
+  "fresh_installation": false,
+  "fresh_model_inference": false,
+  "rtx_vulkan_practical_test": "pending",
+  "new_videos": "not rendered yet",
+  "original_archive_modified": false
+}
