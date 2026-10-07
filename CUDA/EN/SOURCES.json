@@ -1,0 +1,24 @@
+{
+  "checked_utc": "2026-10-07T17:53:35.886359+00:00",
+  "assets": [
+    {
+      "id": 579649260,
+      "name": "cudart-llama-bin-win-cuda-12.4-x64.zip",
+      "size": 391443627,
+      "digest": "sha256:8c79a9b226de4b3cacfd1f83d24f962d0773be79f1e7b75c6af4ded7e32ae1d6",
+      "browser_download_url": "https://github.com/ggml-org/llama.cpp/releases/download/b11078/cudart-llama-bin-win-cuda-12.4-x64.zip"
+    },
+    {
+      "id": 579653297,
+      "name": "llama-b11078-bin-win-cuda-12.4-x64.zip",
+      "size": 253987236,
+      "digest": "sha256:8130691194045481dc6ebe190c7b7e87772d437fe086e47524def7bee4cda84d",
+      "browser_download_url": "https://github.com/ggml-org/llama.cpp/releases/download/b11078/llama-b11078-bin-win-cuda-12.4-x64.zip"
+    }
+  ],
+  "official_release": "https://api.github.com/repos/ggml-org/llama.cpp/releases/tags/b11078",
+  "build_docs": "https://github.com/ggml-org/llama.cpp/blob/b11078/docs/build.md",
+  "server_docs": "https://github.com/ggml-org/llama.cpp/blob/b11078/tools/server/README.md",
+  "method": "Official API metadata/digests read; binary downloads and target installation/inference not performed",
+  "downloaded_weights": false
+}

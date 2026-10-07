@@ -1,21 +1,18 @@
-# llama.cpp mit Vulkan: dein eigener lokaler Chat-Server
+# llama.cpp: AMD/Vulkan und NVIDIA/CUDA — Schritt für Schritt
 
-Eine verständliche Anleitung für Menschen, die noch keinen KI-Server eingerichtet haben. Vom Download über die Grafikkartenprüfung bis zur ersten eigenen Frage, mit speicherbaren Befehlen und Fehlerhilfe. Drei getrennte Hardwareprofile: AMD Strix Halo, RTX 3080 Ti, RTX 3090 Ti. Vulkan ist der gemeinsame Hauptweg; CUDA ist für diesen Einstieg nicht erforderlich.
+**Backend-Korrektur 07.10.2026:** Für Jörgs RTX 3080 Ti und RTX 3090 Ti ist CUDA vorgesehen. Die bisherigen zusätzlichen RTX-Vulkan-Filme 54–57 sind deshalb zurückgezogen und noch nicht durch neue CUDA-Filme ersetzt. Die Änderung betrifft Bild, Text, Vertonung, Befehle und Downloads. Eine reine Titeländerung wäre falsch.
 
-**Deutsch:** [START-DE.md](START-DE.md) · [kleines Downloadpaket](DOLMARIO-VULKAN-DE.zip)
+Der Repository-Name bleibt zur Erhaltung bestehender Links unverändert. Die Anleitungen sind jetzt nach tatsächlichem vorgesehenen Backend getrennt:
 
-**English:** [START-EN.md](START-EN.md) · [small starter ZIP](DOLMARIO-VULKAN-EN.zip)
+| Rechner | Weg | Deutsch | English | Download |
+|---|---|---|---|---|
+| Strix Halo/EVO-X2 | llama.cpp Vulkan | [START-DE.md](START-DE.md) | [START-EN.md](START-EN.md) | [VulkanDE](DOLMARIO-VULKAN-DE.zip) / [VulkanEN](DOLMARIO-VULKAN-EN.zip) |
+| RTX 3080 Ti / RTX 3090 Ti | llama.cpp CUDA | [CUDA/DE/START.md](CUDA/DE/START.md) | [CUDA/EN/START.md](CUDA/EN/START.md) | [CUDADE](DOLMARIO-CUDA-DE.zip) / [CUDAEN](DOLMARIO-CUDA-EN.zip) |
 
-Das ZIP enthält nur Anleitung und Vorlagen. Das optionale GGUF-Beispiel wird separat vom Modellanbieter/Quantisierer geladen (2.50 GB); Programm, Modell und Grafiktreiber sind verschiedene Dinge. SHA-Prüfungen und Versionen sind festgehalten.
+**NVIDIA/CUDA:** Zwei passende offizielle Programm-/CUDA-Laufzeitarchive, deren SHA256-Prüfung, Geräteprüfung, vorhandenes GGUF, Vordergrundstart, Browser/API-Test, Fehlerhilfe und eigenes leeres Testprotokoll. Der Installer überschreibt keine vorhandene Installation. `-PrepareOnly` prüft die Befehle ohne Downloads oder Modellstart. Separate optionale Modell-Datei, keine Modellgewichte im ZIP.
 
-## Dein Rechner / Your hardware
+**AMD/Vulkan:** Die bisherigen Strix-Halo-Anleitungen bleiben erhalten. Historische Geräteerkennung und eine neue Installation mit dem gepinnten Download sind unterschiedliche Belege. Für ComfyUI/Bildmodelle ist das Backend getrennt zu betrachten: der AMD-Aufbau verwendet dort seinen ROCm-Arbeitsweg; eine llama.cpp-Vulkan-Anleitung installiert kein ROCm oder CUDA für Bildmodelle.
 
-- [Strix Halo](PROFILE-STRIX-HALO.md)
-- [RTX 3080 Ti](PROFILE-RTX3080TI.md)
-- [RTX 3090 Ti](PROFILE-RTX3090TI.md)
+**Prüfgrenzen:** Offizielle Release-Metadaten, Dateien, Offline-Vertragsprüfungen und ZIPs sind getrennt von der noch offenen frischen NVIDIA-Installation/GPU-Inferenz. Kein ausgeführter neuer Hardwaretest, gemessener Sieger oder Geschwindigkeit versprochen. Bilder sind erklärende Illustrationen. Die vollständige menschliche Endhörprüfung bleibt offen. Für die Videos 54–57 gilt bis zur tatsächlichen CUDA-Neuproduktion eine Uploadsperre.
 
-## Prüfstand / Evidence
-
-Historische GPU-Erkennung am eigenen Strix-Halo-Aufbau ist belegt. Das gepinnteDownloadbeispiel und optionale Modell sind anhand primärer Metadaten geprüft; eine neue Installation/Modellantwort und RTX-Vulkan-Praxis sind offen. Keine erfundenenGeschwindigkeits- oder Speicherzusagen. Trage deine eigenen Resultate in [TESTPROTOKOLL.csv](TESTPROTOKOLL.csv) ein. [Quellen](SOURCES.md) · [Nachweise](EVIDENCE.json).
-
-Neue DE/EN-Tutorialfilme mit unserer freigegebenen Sprecherin, fiktiver KI-Moderatorin und DOLMARIO-AI-Lama werden vorbereitet; noch keine fertigen neuen Filme behauptet. Vorhandene Begleitdateien im früheren Sammelrepo bleiben bis zur geprüften Migration erhalten.
+Bestehende Client-Anleitungen und ihre ZIPs bleiben erhalten: [CLIENTS.md](CLIENTS.md). Frühere Dateien/Git-Versionen und Sammelrepo bleiben zur nachvollziehbaren Migration erhalten. Keine Rückdatierung alter Vulkan-Archive zu einem CUDA-Test.
