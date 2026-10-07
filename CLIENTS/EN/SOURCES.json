@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/b11078/tools/server/README.md",
+    "checked": "read pinned b11078 documentation",
+    "own_summary": "Built-in browser interface and API are different paths; alias identifies the model, health and model list are not task replies."
+  },
+  {
+    "url": "https://docs.openwebui.com/getting-started/quick-start/connect-a-provider/",
+    "checked": "read",
+    "own_summary": "Existing Open WebUI has provider connections and selects models. Endpoint choice determines where requests go."
+  },
+  {
+    "url": "https://docs.openwebui.com/getting-started/quick-start/connect-a-provider/starting-with-llama-cpp/",
+    "checked": "read",
+    "own_summary": "Connection uses /v1. A local server without keys and a secured server require different auth settings. Native process and container addresses differ."
+  },
+  {
+    "url": "https://docs.openwebui.com/getting-started/quick-start/",
+    "checked": "read",
+    "own_summary": "New frontend installation is separate from backend installation. Current docs contain several distribution modes; this extension assumes an existing frontend."
+  }
+]

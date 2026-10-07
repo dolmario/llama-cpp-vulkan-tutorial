@@ -1,0 +1,8 @@
+{
+  "server_base_url": "http://127.0.0.1:8091",
+  "compatible_api_base_url": "http://127.0.0.1:8091/v1",
+  "model_id": "lokales-modell",
+  "for_existing_native_same_host_client": true,
+  "api_token": "NOT INCLUDED",
+  "no_live_result": true
+}
