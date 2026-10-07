@@ -1,10 +1,12 @@
 # Dein erster lokaler Chat-Server – Windows und Vulkan
 
+**Backend-Zuordnung 07.10.2026:** Diese Anleitung und INSTALL-LLAMA.ps1 sind ausschließlich der AMD-Strix-Halo/Vulkan-Weg dieser Reihe. Für RTX 3080 Ti und RTX 3090 Ti stattdessen [CUDA/DE/START.md](https://github.com/dolmario/llama-cpp-vulkan-tutorial/blob/main/CUDA/DE/START.md) und DOLMARIO-CUDA-DE.zip verwenden. Die früheren RTX-Vulkan-Filme 54–57 sind bis zur CUDA-Neuproduktion gesperrt.
+
 Ziel: Ein Programm auf deinem eigenen Rechner beantwortet eine Frage im Browser. Das kleine Tutorial-ZIP enthält Anleitungen und Startvorlagen, keine KI-Gewichte. Das optionale Beispielmodell ist ein zusätzlicher Download von2.50 GB. Der Weg ist eine prüfbare Vorlage; eine neue Installation oder Modellantwort wurde damit hier noch nicht ausgeführt.
 
 ## 1. Vorbereitung
 
-Windows64Bit, passender aktueller Grafiktreiber mit Vulkan, freier Speicher und ein geeigneter Rechner. Lies dein Hardwareprofil PROFILE-STRIX-HALO.md, PROFILE-RTX3080TI.md oder PROFILE-RTX3090TI.md. Beende deine eigenen konkurrierenden KI-Aufgaben vor dem Modellstart; keine fremden Prozesse stoppen. Prüfe freie RAM-/GPU-Ressourcen. Der Treiber stammt von AMD/NVIDIA oder dem Gerätehersteller. Das Vulkan-Entwicklungspaket ist für den vorkompilierten Download normalerweise nicht erforderlich.
+Windows64Bit, passender aktueller Grafiktreiber mit Vulkan, freier Speicher und ein geeigneter Rechner. Lies dein Hardwareprofil PROFILE-STRIX-HALO.md. Beende deine eigenen konkurrierenden KI-Aufgaben vor dem Modellstart; keine fremden Prozesse stoppen. Prüfe freie RAM-/GPU-Ressourcen. Der passende AMD-Treiber stammt von AMD oder dem Gerätehersteller. Das Vulkan-Entwicklungspaket ist für den vorkompilierten Download normalerweise nicht erforderlich.
 
 ## 2. Das kleine Paket holen
 

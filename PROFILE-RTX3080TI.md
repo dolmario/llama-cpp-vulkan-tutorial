@@ -1,5 +1,5 @@
-# NVIDIA RTX 3080 Ti
+# RTX 3080 Ti: CUDA ist der vorgesehene Weg
 
-Vulkan is the tutorial path; use a suitable NVIDIA driver.12GB VRAM is separate from CPU RAM; model, cache and runtime all need space. No new RTX Vulkan inference or speed measurement performed. / Vulkan-Hauptweg,12GBVRAM; Speicherbedarf nicht nur GGUF-Dateigröße, neuer Praxistest offen.
+**Korrektur 07.10.2026:** Bitte [CUDA/DE/START.md](CUDA/DE/START.md) oder [CUDA/EN/START.md](CUDA/EN/START.md) verwenden und [DOLMARIO-CUDA-DE.zip](DOLMARIO-CUDA-DE.zip)/[DOLMARIO-CUDA-EN.zip](DOLMARIO-CUDA-EN.zip) herunterladen. Die bisherigen Vulkan-Fassungen54–57 sind gesperrt, neue CUDA-Filme noch offen.
 
-First test / Erster Versuch: supported small GGUF, context8192, loopback127.0.0.1, port8091 only if free. Read START-DE.md or START-EN.md. CUDA is a separate optional backend for NVIDIA, not a prerequisite for this Vulkan kit. Do not mix arbitrary CUDA/Vulkan DLLs or benchmarks.
+12 GB eigener VRAM, System-RAM getrennt. Kein neuer Zielrechner-Test oder Benchmark ausgeführt. CUDA-Gerät/Offload und eigene Antwort müssen praktisch geprüft werden. Das bisherige AMD/Vulkan-Installerskript ist nicht dieser CUDA-Weg.

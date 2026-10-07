@@ -1,0 +1,1 @@
+date,gpu,system_ram_gib,free_ram_gib,free_vram_gib,build,backend,device,model_sha256,context,gpu_layers,port,response,error,measured_seconds
