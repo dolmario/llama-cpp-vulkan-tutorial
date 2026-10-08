@@ -16,3 +16,8 @@ Der Repository-Name bleibt zur Erhaltung bestehender Links unverändert. Die Anl
 **Prüfgrenzen:** Offizielle Release-Metadaten, Dateien, Offline-Vertragsprüfungen und ZIPs sind getrennt von der noch offenen frischen NVIDIA-Installation/GPU-Inferenz. Kein ausgeführter neuer Hardwaretest, gemessener Sieger oder Geschwindigkeit versprochen. Bilder sind erklärende Illustrationen. Die vollständige menschliche Endhörprüfung bleibt offen. Für die Videos 54–57 gilt bis zur tatsächlichen CUDA-Neuproduktion eine Uploadsperre.
 
 Bestehende Client-Anleitungen und ihre ZIPs bleiben erhalten: [CLIENTS.md](CLIENTS.md). Frühere Dateien/Git-Versionen und Sammelrepo bleiben zur nachvollziehbaren Migration erhalten. Keine Rückdatierung alter Vulkan-Archive zu einem CUDA-Test.
+
+
+## Preserved original archive / Erhaltenes Originalarchiv
+
+[Historical aggregate-repository documents / Historische Sammelrepo-Dokumente](ARCHIV/SAMMELREPO-20261008/ARCHIV-HINWEIS.md). Current AMD Vulkan and NVIDIA CUDA entry points remain above.
