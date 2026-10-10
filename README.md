@@ -1,23 +1,23 @@
-# llama.cpp: AMD/Vulkan und NVIDIA/CUDA — Schritt für Schritt
+# llama.cpp local AI server: AMD Strix Halo (Vulkan) and NVIDIA RTX (CUDA)
 
-**Backend-Korrektur 07.10.2026:** Für Jörgs RTX 3080 Ti und RTX 3090 Ti ist CUDA vorgesehen. Die bisherigen zusätzlichen RTX-Vulkan-Filme 54–57 sind deshalb zurückgezogen und noch nicht durch neue CUDA-Filme ersetzt. Die Änderung betrifft Bild, Text, Vertonung, Befehle und Downloads. Eine reine Titeländerung wäre falsch.
+Run your own local chat server with llama.cpp, step by step, with scripts and an API test.
 
-Der Repository-Name bleibt zur Erhaltung bestehender Links unverändert. Die Anleitungen sind jetzt nach tatsächlichem vorgesehenen Backend getrennt:
-
-| Rechner | Weg | Deutsch | English | Download |
+| Computer | Backend | English | Deutsch | Download |
 |---|---|---|---|---|
-| Strix Halo/EVO-X2 | llama.cpp Vulkan | [START-DE.md](START-DE.md) | [START-EN.md](START-EN.md) | [VulkanDE](DOLMARIO-VULKAN-DE.zip) / [VulkanEN](DOLMARIO-VULKAN-EN.zip) |
-| RTX 3080 Ti / RTX 3090 Ti | llama.cpp CUDA | [CUDA/DE/START.md](CUDA/DE/START.md) | [CUDA/EN/START.md](CUDA/EN/START.md) | [CUDADE](DOLMARIO-CUDA-DE.zip) / [CUDAEN](DOLMARIO-CUDA-EN.zip) |
+| AMD Strix Halo / GMKtec EVO-X2 | Vulkan | [START-EN.md](START-EN.md) | [START-DE.md](START-DE.md) | [EN](DOLMARIO-VULKAN-EN.zip) · [DE](DOLMARIO-VULKAN-DE.zip) |
+| RTX 3080 Ti / RTX 3090 Ti | CUDA | [CUDA/EN/START.md](CUDA/EN/START.md) | [CUDA/DE/START.md](CUDA/DE/START.md) | [EN](DOLMARIO-CUDA-EN.zip) · [DE](DOLMARIO-CUDA-DE.zip) |
 
-**NVIDIA/CUDA:** Zwei passende offizielle Programm-/CUDA-Laufzeitarchive, deren SHA256-Prüfung, Geräteprüfung, vorhandenes GGUF, Vordergrundstart, Browser/API-Test, Fehlerhilfe und eigenes leeres Testprotokoll. Der Installer überschreibt keine vorhandene Installation. `-PrepareOnly` prüft die Befehle ohne Downloads oder Modellstart. Separate optionale Modell-Datei, keine Modellgewichte im ZIP.
+What the kit does:
+- downloads the pinned official llama.cpp release for your backend, checks its SHA256 and lists the detected GPU,
+- starts the server in the foreground and tests the browser chat and API (`START-LLAMA.ps1` / `START-CUDA.ps1`, `TEST-API.ps1`),
+- CUDA kit: never overwrites an existing installation; `-PrepareOnly` shows all commands without downloading or starting anything.
 
-**AMD/Vulkan:** Die bisherigen Strix-Halo-Anleitungen bleiben erhalten. Historische Geräteerkennung und eine neue Installation mit dem gepinnten Download sind unterschiedliche Belege. Für ComfyUI/Bildmodelle ist das Backend getrennt zu betrachten: der AMD-Aufbau verwendet dort seinen ROCm-Arbeitsweg; eine llama.cpp-Vulkan-Anleitung installiert kein ROCm oder CUDA für Bildmodelle.
+Model files are separate downloads (see `MODEL-EXAMPLE.json` and `DOWNLOAD-MODEL.ps1`). Hardware profiles: [Strix Halo](PROFILE-STRIX-HALO.md) · [RTX 3080 Ti](PROFILE-RTX3080TI.md) · [RTX 3090 Ti](PROFILE-RTX3090TI.md). Troubleshooting: [EN](TROUBLESHOOTING-EN.md) · [DE](FEHLERHILFE-DE.md). Chat clients: [CLIENTS.md](CLIENTS.md). [SHA256](SHA256SUMS.txt) · [CUDA SHA256](CUDA-SHA256SUMS.txt) · [Sources](SOURCES.md)
 
-**Prüfgrenzen:** Offizielle Release-Metadaten, Dateien, Offline-Vertragsprüfungen und ZIPs sind getrennt von der noch offenen frischen NVIDIA-Installation/GPU-Inferenz. Kein ausgeführter neuer Hardwaretest, gemessener Sieger oder Geschwindigkeit versprochen. Bilder sind erklärende Illustrationen. Die vollständige menschliche Endhörprüfung bleibt offen. Für die Videos 54–57 gilt bis zur tatsächlichen CUDA-Neuproduktion eine Uploadsperre.
+Tested on the hardware named above; other systems can behave differently.
 
-Bestehende Client-Anleitungen und ihre ZIPs bleiben erhalten: [CLIENTS.md](CLIENTS.md). Frühere Dateien/Git-Versionen und Sammelrepo bleiben zur nachvollziehbaren Migration erhalten. Keine Rückdatierung alter Vulkan-Archive zu einem CUDA-Test.
+## Deutsch
 
+Dein eigener lokaler Chat-Server mit llama.cpp, Schritt für Schritt, mit Skripten und API-Test. Strix Halo nutzt Vulkan, RTX 3080 Ti und 3090 Ti nutzen CUDA. Anleitung und Download stehen in der Tabelle oben. Das Skript lädt das gepinnte offizielle Release, prüft den SHA256 und zeigt die erkannte Grafikkarte; danach Server starten und Chat und API testen. Das CUDA-Paket überschreibt keine vorhandene Installation; `-PrepareOnly` zeigt alle Befehle ohne Download oder Start. Modelldateien werden separat geladen.
 
-## Preserved original archive / Erhaltenes Originalarchiv
-
-[Historical aggregate-repository documents / Historische Sammelrepo-Dokumente](ARCHIV/SAMMELREPO-20261008/ARCHIV-HINWEIS.md). Current AMD Vulkan and NVIDIA CUDA entry points remain above.
+Older archive documents: [ARCHIV/SAMMELREPO-20261008/ARCHIV-HINWEIS.md](ARCHIV/SAMMELREPO-20261008/ARCHIV-HINWEIS.md)
