@@ -1,0 +1,29 @@
+{
+  "runtime_version": "0.00.000.896 I srv  llama_server: initializing ...\nversion: 0.4.1-dev (build 11078, commit e0dff5847)\nbuilt with Clang 20.1.8 for Windows x86_64",
+  "vulkan_devices": "0.00.001.011 I srv  llama_server: initializing ...\nAvailable devices:\n  Vulkan0: AMD Radeon(TM) 8060S Graphics (48971 MiB, 46522 MiB free)",
+  "context": 4096,
+  "gpu_layer_request": 999,
+  "port": 18190,
+  "model_alias": "local-chat",
+  "api_answer_received": true,
+  "api_seconds": 1.625,
+  "native_browser_first_task_and_followup": true,
+  "clipboard_answer_saved": true,
+  "files": [
+    {
+      "file": "llama-vulkan.zip",
+      "bytes": 31935062,
+      "sha256": "0649f258e140a8b3b1a4c58d863c317b0fd3427eed2e72132399dbde363df861",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11078/llama-b11078-bin-win-vulkan-x64.zip"
+    },
+    {
+      "file": "Qwen_Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+      "bytes": 2497280736,
+      "sha256": "2fde00ce69dd4899c70d020845e2638353015bba0fdf161b3eb965f2bca4464e",
+      "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-Instruct-2507-GGUF/resolve/ae44f08e1392f39c0e474af10c3ff8355c8b6688/Qwen_Qwen3-4B-Instruct-2507-Q4_K_M.gguf?download=true"
+    }
+  ],
+  "physical_memory_gb": 64,
+  "existing_driver": true,
+  "whole_new_film_human_listening": false
+}

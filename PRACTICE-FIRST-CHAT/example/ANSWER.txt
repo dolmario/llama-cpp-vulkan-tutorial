@@ -1,0 +1,1 @@
+We generate a town image with FLUX.2 Klein, save motion prompts using Gemma, and animate the image with LTX 2.5.

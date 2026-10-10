@@ -1,0 +1,15 @@
+{
+  "fresh_runtime_download": true,
+  "fresh_gguf_download": true,
+  "full_source_hashes_matched": true,
+  "native_browser_two_answers": true,
+  "real_api_inference": true,
+  "installer_script_execution": true,
+  "installer_caller_directory_preserved": true,
+  "model_download_script_execution": true,
+  "start_and_api_scripts_execution": true,
+  "confirmed_gpu_offload_layer_log": true,
+  "fresh_driver_install": false,
+  "new_film_human_whole_listening": false,
+  "script_validation": "SCRIPT-VALIDATION.json"
+}
