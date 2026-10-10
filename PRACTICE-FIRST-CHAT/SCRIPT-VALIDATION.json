@@ -1,0 +1,21 @@
+{
+  "actual_four_powershell_scripts_executed": true,
+  "installer_caller_directory_preserved": true,
+  "runtime_sha256": "0649f258e140a8b3b1a4c58d863c317b0fd3427eed2e72132399dbde363df861",
+  "gguf_sha256": "2fde00ce69dd4899c70d020845e2638353015bba0fdf161b3eb965f2bca4464e",
+  "scripts": {
+    "INSTALL-LLAMA.ps1": "c908f1702bed85f2eb905f4d127f5f6c2f91d43c0832f68b45a2b92ce938c880",
+    "DOWNLOAD-MODEL.ps1": "a39ed982d1a05c4129cb520c82a3f61088dc3dad92039569b8f14a8f2be28357",
+    "START-LLAMA.ps1": "2ea9fda333b284075c43eb02ed0affcc904b830cd7ef5577e187b5e810690286",
+    "TEST-API.ps1": "ced9be1f350c6630d6cc79436cb790c17098e9e29a9668824e428cf87da61ba9"
+  },
+  "context": 4096,
+  "alias": "local-chat",
+  "gpu_layer_request": 999,
+  "actual_gpu_offload": "37/37 layers to GPU",
+  "vulkan_device": "AMD Radeon(TM) 8060S Graphics",
+  "api_answer": "- Generate a town image using FLUX.2 Klein.  \n- Save motion prompts using Gemma.  \n- Animate the image with LTX 2.5.",
+  "native_browser_two_answers": true,
+  "fresh_driver_install": false,
+  "whole_new_film_human_listening": false
+}

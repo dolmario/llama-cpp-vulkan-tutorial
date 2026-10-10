@@ -1,6 +1,6 @@
 # Dein erster lokaler Chat-Server – Windows und Vulkan
 
-**Backend-Zuordnung 07.10.2026:** Diese Anleitung und INSTALL-LLAMA.ps1 sind ausschließlich der AMD-Strix-Halo/Vulkan-Weg dieser Reihe. Für RTX 3080 Ti und RTX 3090 Ti stattdessen [CUDA/DE/START.md](https://github.com/dolmario/llama-cpp-vulkan-tutorial/blob/main/CUDA/DE/START.md) und DOLMARIO-CUDA-DE.zip verwenden. Die früheren RTX-Vulkan-Filme 54–57 sind bis zur CUDA-Neuproduktion gesperrt.
+**Backend-Zuordnung 07.10.2026:** Diese Anleitung und INSTALL-LLAMA.ps1 sind ausschließlich der AMD-Strix-Halo/Vulkan-Weg dieser Reihe. Für RTX 3080 Ti und RTX 3090 Ti stattdessen [CUDA/DE/START.md](https://github.com/dolmario/llama-cpp-vulkan-tutorial/blob/main/CUDA/DE/START.md) und DOLMARIO-CUDA-DE.zip verwenden. Die englischen Filme55/57 sind online; die frühere pauschale Rückzugsmeldung war überholt.
 
 Ziel: Ein Programm auf deinem eigenen Rechner beantwortet eine Frage im Browser. Das kleine Tutorial-ZIP enthält Anleitungen und Startvorlagen, keine KI-Gewichte. Das optionale Beispielmodell ist ein zusätzlicher Download von2.50 GB. Der Weg ist eine prüfbare Vorlage; eine neue Installation oder Modellantwort wurde damit hier noch nicht ausgeführt.
 
