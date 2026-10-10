@@ -15,5 +15,6 @@
     }
   },
   "metadata_url": "https://huggingface.co/api/models/bartowski/Qwen_Qwen3-4B-Instruct-2507-GGUF?blobs=true",
-  "weights_downloaded": false
+  "weights_in_package": false,
+  "recorded_example_weights_downloaded_and_verified": true
 }
